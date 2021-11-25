@@ -121,3 +121,11 @@ button:hover {
   margin: 30px;
   padding: 50px;
 }
+@-o-viewpor {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
