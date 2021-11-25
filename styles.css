@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #cf7133;
+  list-style: none;
+}
+li,
+a,
+button {
+  font-family: "Estonia", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #20cf78;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3 ease 0s;
+}
+.nav_links li a:hover {
+  color: rgb(1, 8, 6);
+}
+button {
+  padding: 9px 30px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+button:hover {
+  background-color: rgb(95, 105, 160);
+}
+.wrapper {
+  background: #f5f6fa;
+}
+.wrapper .sidebar {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  padding: 30px 0;
+  transition: all 0.5s ease;
+}
+.wrapper .sidebar .profile {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wrapper .sidebar .profile img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.wrapper .sidebar .profile h3 {
+  color: black;
+  font-size: 30px;
+  font-family: "Lobster", sans-serif;
+}
+.wrapper .sidebar .profile p {
+  color: #8d8ccf;
+  font-family: "Lobster", sans-serif;
+  font-size: 25px;
+}
+.wrapper .sidebar ul {
+  list-style: none;
+}
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 5px 25px;
+  font-size: 23px;
+  border-bottom: 1px solid #ececec;
+  color: rgb(87, 46, 46);
+}
+.wrapper .sidebar ul li a .icon {
+  color: #c7cfdb;
+  width: 30px;
+  display: inline-block;
+}
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+  color: brown;
+  background: linear-gradient(to right, #fff, #f6edfc);
+}
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+  color: cyan;
+}
+.section {
+  width: calc(100%-300px);
+  margin-left: 300px;
+}
+.section .micky .top_nav {
+  height: 50px;
+  padding: 0 25px;
+}
+.section .micky .top_nav:hover {
+  color: cyan;
+}
+.section .container {
+  margin: 30px;
+  padding: 50px;
+}
